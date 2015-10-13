@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tax Matters, LLC</title>
+  <%= stylesheet_link_tag    "custom.css.scss" %>
+  <%= stylesheet_link_tag    "about.css.scss" %>
+  <%= stylesheet_link_tag    "contact.css.scss" %>
+  <%= stylesheet_link_tag    "home.css.scss" %>
+  <%= stylesheet_link_tag    "services.css.scss" %>
+  <%= stylesheet_link_tag    "links.css.scss" %>
+  <%= stylesheet_link_tag    "location.css.scss" %>
+  <%= stylesheet_link_tag    "emailer.css.scss" %>
+  <%= stylesheet_link_tag    "staff.css.scss" %>
+  <% if browser.ie8? %>
+   <%= stylesheet_link_tag    "ie8.css.scss" %>
+  <% end %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="wrapper" id="topmenu">
+  <div id="topnav">
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services</a>
+      <li><a href="/links">Tools &amp; Tips</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/staff">Staff</a></li>
+      <li class="last"><a href="/location">Location</a></li>
+    </ul>
+  <div class="clear"></div>
+  </div>
+  </div>
+  <div class="app-wrapper">
+  <div class="loading-outer">
+    <div class="loading-inner">
+      <%= image_tag("loading.gif", :alt => "irs", :class => "") %>
+    </div>
+  </div>
+  <div class="main">
+  <div id="header" style="display:none;">
+    <h1><a href="">Tax matters,<span class="smaller">LLC</span></a></h1>
+    <p id="slogan">Tax preparation with a personal touch</p>
+    <p id="header-low-info">Tel: 845 452-7862 | Fax: 845 473-5465 | EMail: TaxMattersLLC@msn.com </p>
+  </div>
+  <div id="menu">
+  <div class="wrapper">
+  <div id="topbar">
+    <!--<div class="fl_left">Tel: 845 452-7862 | Fax: 845 473-5465 | Mail: TaxMattersLLC@msn.com </div>-->
+  </div>
+  </div>
+  </div>
+  <!-- Browser Detection for IE7 and 8 -->
+   <% if browser.ie6? %>
+   	<p class="center bold" id="disclaimer">You're running an old version of Internet Explorer, You may have trouble viewing parts of this website, Please Update Internet Explorer in order to view this site correctly</p>   
+   <% end %>
+   <% if browser.ie7? %>
+   	<p class="center bold" id="disclaimer">You're running an old version of Internet Explorer, You may have trouble viewing parts of this website, Please Update Internet Explorer in order to view this site correctly</p>   
+   <% end %>
+   <% if browser.ie8? %>
+   	<p class="center bold" id="disclaimer">You're running an old version of Internet Explorer, You may have trouble viewing parts of this website, Please Update Internet Explorer in order to view this site correctly</p>   
+   <% end %>
+   <% if browser.mobile? %>
+   	<p class="center bold" id="disclaimer">Viewing this site on mobile may be difficult, in order to view this site correctly, please view on desktop or laptop browser software</p>   
+   <% end %>
+  <div id="content" style="display:none;">
+    <div class="wrapper">
+  <div class="container">
+    <div class="whitebox">
+      <!-- ####################################################################################################### -->
+      <%= yield %>
+      <!-- ####################################################################################################### -->
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div id="footer">
+    <div id="footerbar">
+    <div class="fl_left">Tax Matters LLC | 11 Davis Road | Poughkeepsie, NY 12603 </div>
+  </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

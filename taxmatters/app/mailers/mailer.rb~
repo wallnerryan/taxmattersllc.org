@@ -1,0 +1,12 @@
+class Mailer < ActionMailer::Base
+  
+  default :from => "noreply@taxmatters.dev"
+  default :to => "wallnerryan@gmail.com"
+
+  def new_message(message)
+    @message = message
+    mail(:subject => "[TaxMatters] This Message is sent by TaxMatters Development Website [Subject] #{message.subject}",
+         :body => "[Message From] #{message.email}\n[Name] #{message.name}\n[Main Message] #{message.body}")
+  end
+  
+end

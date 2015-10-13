@@ -1,0 +1,89 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.content-wrapper{
+    width: 950px;
+    overflow: hidden;
+}
+
+.lcontent{
+    position: absolute;
+}
+
+.left-content{
+    width: 250px;
+    float:left;
+}
+
+.no-marg{
+    margin-top: -10px;
+}
+
+#mainpicinfo{
+	margin-bottom: 30px;
+}
+
+#mainpicinfo p{
+		margin-bottom:-15px;
+	}
+
+.tax_pic{
+    height: 225px;
+    width: 300px;
+    -moz-box-shadow: 10px 5px 5px black;
+    -webkit-box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px black;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.wmr_pic{
+    height: 200px;
+    width: 600px;
+}
+
+.right-content{
+    float: left;
+    width: 600px;
+    font-size: 10pt;
+    padding-left: 35px;
+    border-left: 1px solid #424A1F;
+}
+
+.right-content ul{
+    list-style: none;
+}
+
+#top-margin{
+    margin-top: 50px;
+}
+
+.email{
+    font-size: 20pt;
+    margin: 10px;
+    background-color: #617C58;
+    text-align: center;
+    color: white;
+    width: 600px;
+    -moz-box-shadow: 10px 5px 5px black;
+    -webkit-box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px black;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+#home_box{
+    float: left;
+    width: 200px;
+    height: 160px;
+    padding: 5px;
+    margin-left: 5%;
+    background-color: #FFF;
+}
+
+#home_box img{
+    height: 155px;
+    width: 195px;
+    margin: 2px 2px 2px 2px;
+}

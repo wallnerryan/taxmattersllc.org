@@ -1,0 +1,41 @@
+<% if flash[:alert] %>
+    <div class="alert"><%= flash[:alert] %></div>
+<% end %>
+<h1>Contacts</h1>
+<div id="contact_info">
+  <ul>Contact Information
+    <li><span class="bold">Mailing Address:</span> Tax Matters, 11 Davis Road, Poughkeepsie NY 12603</li>
+    <li><span class="bold">Email:</span> TAXMATTERSLLC@MSN.COM</li>
+    <li><span class="bold">Phone:</span> (845) 452-7862 </li>
+    <li><span class="bold">Fax:</span> (845) 473-5465</li>
+  </ul>
+  <p>...Or feel free to send us any questions, comments or feedback in a quick message below!</p>
+</div>
+<div id="email_form">
+<%= form_for @message, :url => contact_path do |form| %>
+  <fieldset class="fields">
+    <div class="field">
+      <%= form.label :name %>
+      <%= form.text_field :name %>
+    </div>
+    
+    <div class="field">
+      <%= form.label :email %>
+      <%= form.text_field :email %>
+    </div>
+    <div class="field">
+      <%= form.label :subject %>
+      <%= form.text_field :subject %>
+    </div>
+    
+    <div class="field">
+      <%= form.label :body %>
+      <%= form.text_area :body %>
+    </div>
+  </fieldset>
+  
+  <fieldset class="actions">
+    <%= form.submit "Send" %>
+  </fieldset>
+<% end %>
+</div>

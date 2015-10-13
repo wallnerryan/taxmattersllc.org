@@ -1,0 +1,114 @@
+<h1 class="big-bold underline center">Tools &amp; Tips</h1>
+<h2 class="bold center">Preparing for your appointment and gathering your information can 
+seem like an arduous task so I’ve included some tools to help you get</h2>
+<h3 class="center">The following information sheet should be printed, filled out and brought with you 
+to your first appointment or included with your paperwork if dropping off.</h3>
+</br>
+<p class="center">Please click the image to download the form.</p>
+<p id="formp"><a href="/form.pdf"><%= image_tag("form.png", :alt => "eform", :class => "form") %></a></p>
+</br>
+<h1 class="big-bold underline center">Helpful Tips for gathering your Information</h1>
+<p><span class="bold underline">W-2s:</span> Be sure you have one for each employer you worked for during the current taxable year.
+ Employers have until January 31 of the following year to mail the forms to you, but sometimes 
+ they don't act in a timely manner. If the employer has gone out of business or if you have moved 
+ and not notified the employer of your new address, there could very well be a delay in getting those 
+ forms to you. You should verify the amounts on the W-2 form with your last pay stub from each employer.
+ </p>
+<p><span class="bold underline">1099s:</span> You will receive a 1099-INT from every payer of interest and a 1099-DIV from every payer of dividends. In addition, broker accounts and/or mutual funds will issue a 1099-B to 
+report the gross proceeds from the sale of securities and mutual fund shares.Other 1099 forms that may come to you include 1099-S for the sale of real estate, 
+1099-SSA to report social security benefits, and 1099-R for distributions from pensions, annuities and IRAs. State unemployment state income tax returns, 
+and gambling winnings are also reported on separate 1099 forms. Independent contractor fees, director fees, executor and trustee fees are all reported on 
+1099-MISC. 
+</p>
+<p><span class="bold underline">1098:</span> This form reports interest you paid on a mortgage or home equity loan. Real estate taxes, 
+if paid from an escrow account with the lender, are also shown on this form.
+</p>
+<p><span class="bold underline">Schedules K-1:</span> If you were a partner or limited partner in a partnership or a shareholder in a Sub-Chapter S Corporation, the tax ramifications of your participation are
+ reported on Schedule K-1. If you were the beneficiary of an estate or trust during the current taxable year, a Schedule K-1 will be sent to you outlining the
+  taxable income from this source. Typically, these forms are not sent to you by January 31. Please remember there is important tax information on
+  these schedules and your tax return cannot be prepared without them.
+  </p>
+<p><span class="bold underline">Purchase/Sale/Refinance of Personal Residence:</span> If you buy a home or refinance one, we need the settlement or escrow statement. 
+If you aren't sure which one that is, bring all the forms given to you at closing. If you sold property, you'll need to 
+bring the original purchase information along with the sale papers and data regarding improvements you made to the property.
+</p>
+<p><span class="bold underline">Stock Sales:</span> If you sold stock during the year, we need the purchase date and purchase price and/or records of cost basis.
+ If you sold a mutual fund (even if you "moved" from one fund to another), please bring the year-end statement for each
+ year of ownership, unless the company has provided you with cost information.
+ </p>
+<p><span class="bold underline">Business Purchases:</span> If you purchased new equipment for your business or for use as an employee, bring the receipts 
+or contracts. If you purchased or leased an automobile, bring the papers detailing the price, trade-in, sales tax, and lease term.</p>
+<p><span class="bold underline">Mileage:</span> If you intend to claim miles for business use, you must have a log. This log will have the total miles for the year, 
+as well as notations regarding the business miles and business purpose that are part of the grand total. If you are leasing your car, 
+in addition to the mileage log, you need to provide all expenses, including gas, oil, insurance, license, repairs, and the amount of the
+ lease payments. In addition to the mileage, be sure to have the receipts for parking and tolls.Mileage can also be claimed for medical 
+ and charitable purposes, but again, a log is your best indicator of the deduction that is available to you. 
+ </p>
+<p><span class="bold underline">Charitable Deductions:</span> Federal tax law requires a written acknowledgement from a charity for any single contribution of $250 or more. 
+An itemized deduction is not permitted unless the acknowledgement is received prior to filing the tax return. For all other 
+contributions, receipts and cancelled checks are good proof for the deduction. If you contributed items in kind (clothing, toys,
+ household items, automobiles), you will need an itemized list for amounts over $500 in addition to the receipt from the organization.
+ </p>
+<p><span class="bold underline">Estimated Tax Payments:</span> Please be sure to have a list of when and in what amount your payments were made for the current taxable year.
+ Remember, the payment made in January of this year counted towards last year's taxes.
+ </p>
+<p><span class="bold underline">Child Care Expenses:</span> To claim child care expenses to either an individual or a daycare center, be sure you have the complete name, 
+address, and tax identification number, as well as the name of the child and total amount paid for child care in the current taxable year.
+</p>
+<p><span class="bold underline">Education Credits:</span> If you have education expenses for which you want to claim a credit against your income tax, be sure you have the 
+amount paid in the current taxable year for each person who is eligible for this credit. There are different limits for each of these credits.
+</p>
+<p><span class="bold underline">New Dependents:</span> If a child was born in the current taxable year or you completed the adoption process for a new dependent, please
+ provide a copy of the social security card as well as complete name and birth date. If there are other dependents you are eligible to 
+ claim this year, be sure to have their information with you as well so the exemption can be properly claimed.
+ </p>
+<p><span class="bold underline">Miscellaneous:</span> The list just given is a generalized list, some of which may not apply to your return. A good checklist is to 
+review last year's return and use that as a guide for the documentation you'll need to bring to insure an accurate tax return is prepared on your behalf. 
+As always, your call is welcome anytime to verify other items that may be needed for your tax return.
+</p>
+</br>
+<h1 class="bold center">The links on this page will provide you with information and resources that I would like to make readily available to you.>/h1>
+<div class="grid-wrapper">
+<div class="grid-outer-box">
+<div class="space" id="gridbox">
+<h1><a href="http://www.irs.gov"><%= image_tag("irslogo.gif", :alt => "irs", :class => "pic") %></a></h1>
+<p>
+  The IRS website provides information on many topics. Of course you’re always free to call me if you have questions!
+</p>
+</div>
+<div class="space" id="gridbox">
+<h1><a href="http://www.irs.gov/newsroom/content/0,,id=104608,00.html"><%= image_tag("tax_tips.jpg", :alt => "irs", :class => "pic") %></a></h1>
+<p>
+  You can find informaton on about your tips from the IRS at
+  <a href="http://www.irs.gov/newsroom/content/0,,id=104608,00.html">IRS Tax Tips for 2012</a> on the IRS website.
+</p>
+</div>
+<div class="space" id="gridbox">
+<h1><a href="http://www.irs.gov/individuals/article/0,,id=96596,00.html"><%= image_tag("wmr-sm.png", :alt => "irs", :class => "pic") %></a></h1>
+<p>
+  You can find informaton on about your refund at
+  <a href="http://www.irs.gov/individuals/article/0,,id=96596,00.html">where's my refund?</a> on the IRS website.
+  The video below is a good source from IRS.gov to learn more about your refund.
+</p>
+</div>
+</div>
+</div>
+<div class="bottom">
+<div class="center">
+    <h1 class="bold-underline">Other information you may want to know...</h1>
+    <p class="center" id="larger">
+      The links on this page will provide you with information and resources that
+      I would like to make readily available to you. Some of these links will take you
+      to the IRG.gov site with certain information that will be useful to your refund and
+      your current tax situation.
+    </p>
+</div>
+<div class="center" id="top-margin">
+<h2><a href="http://www.irs.gov/individuals/article/0,,id=96596,00.html">Click Here to link to Where's My Refund? at IRS.gov</a></h2>
+<object style="height: 390px; width: 640px;">
+  <param name="movie" value="http://www.youtube.com/v/jNlmQZ_mXko?version=3&feature=player_embedded">
+    <param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always">
+    <embed src="http://www.youtube.com/v/jNlmQZ_mXko?version=3&feature=player_embedded" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="600" height="350">
+</object>
+</div>
+</div>

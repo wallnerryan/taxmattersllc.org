@@ -1,0 +1,124 @@
+<h1 class="center underline bold">What Makes <span class="italic">Tax Matters </span>So Unique?</h1>
+<ul>
+<li>
+<p>
+  Tax Matters is not a large franchise chain! Every return is personally prepared by myself, 
+  John Daubman the owner of Tax Matters- a small, hometown accountant with 30 years of experience, 
+  not some recently hired "trainee" Big is not better!  I serve a small client base that desires a long-term, 
+  personal relationship with a skilled accountant they can trust to prepare their tax return. My clients are tired 
+  of the impersonal treatment and overall lack of concern, knowledge, and experience of the so-called "Tax Pros" 
+  out there. They appreciate what it means to have their own small town accountant going to bat for them! 
+</p>
+</li>
+<li>
+<p>
+  Tax Matters is owner operated, friendly and personable! I develop personal relationships with my clients. 
+  Many go back more than 20 years and have become old friends! Our unconventional office provides a 
+  relaxed, pleasant yet professional atmosphere to meet and discuss your own unique tax situation. 
+</p>
+</li>
+<!--
+<li>
+<p>
+  You see, I'm not a large firm or a national franchise. I serve a small client base
+  that desires a long-term, personal relationship with a skilled accountant they can
+  trust to prepare their tax return. They're tired of impersonal treatment and overall
+  lack of concern, knowledge, and experience of the so-called "Tax Pros" out there.
+  They appreciate what it means to have their own small town accountant going to bat
+  for them!
+</p>
+</li>
+<li>
+<p>
+  If this sounds like you, then continue reading this message and the rest of the
+  information about my firm, <span class="bold-underline">Tax Matters</span>
+</p>
+</li>
+<li>
+<p>
+  Tax Matters is a very unique Tax Preparation Firm that addresses both your
+  <span class="italic">individual & financial </span>needs by providing a
+  <span class="italic">close, personal, one on one relationship </span>
+  between you and your Accountant. A relationship that combines experience, personal
+  attention and accuracy in the preparation of your Tax Return while providing
+  an aggressive approach to <span class="bold">"Tax Avoidance"</span><span class="bold-underline">
+  all at prices below the National Chains!</span>
+</p>
+</li>
+<li>
+<p>
+  If you a homeowner, this entitles you to many more deductions & credit that you can't
+  afford to miss out on by using "online software" or a big tax prep franchise with a "Fresh
+  out of School Trainee"! <span class="italic">You need an experienced Accountant
+  who really cares about you and lowering your Taxes!</span>
+</p>
+</li>
+<li>
+<p>
+  Call me today and let me show you how relaxing and financially rewarding an experience
+  filing this years tax returns can be!
+</p>
+</li>
+<li>
+<a href="/contact.html">Contact Me!</a>
+</li>
+</ul>
+</br>
+-->
+<h1 class="bold underline center">Our Office!</h1>
+<div class="slider-wrapper">
+    <div id="slider" class="nivoSlider">
+      <%= image_tag("about1.jpg", :alt => "Caption", :class => "slide") %>
+      <%= image_tag("about2.jpg", :alt => "Caption", :class => "slide") %>
+      <!--<%= image_tag("slide-exmpl-3.jpg", :alt => "Another Caption", :class => "slide") %>-->
+    </div>
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is what our <em>Tax Matters</em> office looks like!
+</div>
+<ul>
+<li>
+<p>
+Tax Matters addresses both your individual & financial needs by providing a close, personal, 
+one on one relationship between you and your Accountant. A relationship that combines experience, 
+personal attention and accuracy in the preparation of your Tax Return while providing an aggressive 
+approach to "Tax Avoidance". 
+</p>
+</li>
+<li>
+<p>
+I am always available to clients! Even evenings and weekends, 365 days a year! Our office doesn’t 
+close after April 15th and because my practice is attached to my home, I'm always here to answer 
+any questions about your Tax Return or any other concerns you may have.  Sometimes it’s just a 
+quick question, but it’s nice to be able to speak to me right away!
+</p>
+</li>
+<li>
+<p>
+Quick drop off service! Allows you to leave your return without an appointment. 
+Although a complete consultation with myself is always your option, many clients 
+like to simply drop off their information at their convenience using my Lockbox Service. 
+</p>
+</li>
+</ul>
+<h1 class="bold center">Call me today and let me show you how relaxing and financially rewarding an experience filing this years tax returns can be! </h1>
+<!--
+<h1 class="center">Published in "What's New" of the Biz News</h1>
+<h7><span class="bold-underline">"Local Tax Accountant Appointed as Registered Tax
+  Return Preparer by I.R.S."</span></h7>
+<p class="bump-right">
+  The IRS recently designed <span class="bold">John A. Daubman </span>as a
+  <span class="bold">Registered Tax Return Preparer. </span> This new upgraded
+  status was established by the IRS to ensure competancy and prefessional standards
+  in the Tax Preparation Industry. All the candidates must pass a written exam
+  administered by the IRS, complete background and compliance checks as well as
+  maintain annual continuing education requirments. Mr. Daubman is one of the
+  first in the tax preparation industry to have met these requirements set by the IRS.
+</p>
+<p class="bump-right">
+  A graduate of the State University of New York as Albany, Mr. Daubman has been a local
+  Tax Accountant for over 30 years and is the owner of Tax Matters, LLC in the town
+  of LaGrange.
+</p>
+-->
+

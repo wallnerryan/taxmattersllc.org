@@ -1,0 +1,15 @@
+taxmatters:
+  image: wallnerryan/taxmatters
+  cpu_shares: 100
+  mem_limit: 117964800
+  ports:
+    - "80:3000"
+  links:
+    - taxmatters_mysql:tmdb
+
+taxmatters_mysql:
+  image: mysql
+  cpu_shares: 100
+  mem_limit: 117964800
+  environment:
+    MYSQL_ROOT_PASSWORD: root

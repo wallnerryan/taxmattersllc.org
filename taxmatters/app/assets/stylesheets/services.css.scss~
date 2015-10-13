@@ -1,0 +1,31 @@
+// Place all the styles related to the services controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#side_box{
+	 float:left;
+    width: 195px;
+    height: 155px;
+    -moz-box-shadow: 0 0 1em black;
+    -webkit-box-shadow: 0 0 1em black;
+    box-shadow: 0 0 1em black;
+}
+
+#side_box img{
+    height: 155px;
+    width: 195px;
+}
+
+#side-list{
+	font-size:12pt;
+	}
+#side-list{
+	margin-top: 5px;
+	margin-left: 25%;
+	}
+
+#side-list > li {
+	padding-bottom: 8px;
+	font-weight: bolder;
+	text-shadow: 3px 3px 8px black;
+	}

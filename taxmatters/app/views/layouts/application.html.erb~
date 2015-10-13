@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tax Matters, LLC</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="app-wrapper">
+  <div class="loading-outer">
+    <div class="loading-inner">
+      <%= image_tag("loading.gif", :alt => "irs", :class => "") %>
+    </div>
+  </div>
+  <div class="main">
+  <div class="wrapper" id="topmenu">
+  <div id="topnav">
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services</a>
+      <li><a href="/links">Tools &amp; Tips</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li class="last"><a href="/location">Location</a></li>
+    </ul>
+  <div class="clear"></div>
+  </div>
+  </div>
+  <div id="header" style="display:none;">
+    <h1><a href="">Tax matters,<span class="smaller">LLC</span></a></h1>
+    <p id="slogan">Tax preparation with a personal touch</p>
+    <p id="header-low-info">Tel: 845 452-7862 | Fax: 845 473-5465 | Mail: TaxMattersLLC@msn.com </p>
+  </div>
+  <div id="menu">
+  <div class="wrapper">
+  <div id="topbar">
+    <!--<div class="fl_left">Tel: 845 452-7862 | Fax: 845 473-5465 | Mail: TaxMattersLLC@msn.com </div>-->
+  </div>
+  </div>
+  </div>
+  
+  <div id="content" style="display:none;">
+    <div class="wrapper">
+  <div class="container">
+    <div class="whitebox">
+      <!-- ####################################################################################################### -->
+      <%= yield %>
+      <!-- ####################################################################################################### -->
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div id="footer">
+    <div id="footerbar">
+    <div class="fl_left">Tax Matters LLC | 11 Davis Road | Poughkeepsie, NY 12603 </div>
+  </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
