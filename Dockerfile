@@ -42,6 +42,9 @@ WORKDIR /taxmatters-app
 RUN /usr/bin/gem install bundler
 RUN /usr/local/bin/bundle install
 
-RUN RAILS_ENV=production bundle exec rake assets:precompile --trace
-CMD ["rails", "server", "--binding", "0.0.0.0"]
+ENV RAILS_ENV=production
+RUN bundle exec rake assets:precompile --trace
+ADD init.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/init.sh
+CMD ["/usr/local/bin/init.sh"]
 
