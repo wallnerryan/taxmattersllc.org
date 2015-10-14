@@ -66,27 +66,17 @@ Taxmatters::Application.configure do
   
   # Disable delivery errors, bad email addresses will be ignored
   config.action_mailer.raise_delivery_errors = true
-
- # #Using Google SMTP (DEVELOPMENT)
- # config.action_mailer.delivery_method = :smtp
- # config.action_mailer.smtp_settings = {
- #   :enable_starttls_auto => true,
- #   :address => 'smtp.gmail.com',
- #   :port => 587,
- #   :authentication => :plain,
- #   :user_name => 'wallnerryan@gmail.com',
- #   :password => 'iforgotagain'
- # }
   
  #AWS SES Settings (I AM user : TAXMATTERSSES )
  config.action_mailer.delivery_method = :smtp
  config.action_mailer.smtp_settings = {
-     :address => "email-smtp.us-east-1.amazonaws.com",
-      :user_name => "AKIAIWW25PYGKM7XJ2BQ",
-      :password => "Ap1uV4tymCB5lZGcDZE6QNhfKyS96Zim3WjObWxzY4S/",
+      :address => "email-smtp.us-east-1.amazonaws.com",
+      :port => 587,
+      :user_name => "AKIAJACEPOVNN6PJNWSQ",
+      :password => "Ahpd2Vc90CA9XsREe0qt69mfxKLh6iogDnBmMOoMtnGf",
       :authentication => :login,
       :enable_starttls_auto => true
- }
+}
 
  
 end

@@ -26,9 +26,6 @@ RUN apt-get -y install ruby \
 	libtool \
 	bison \
 	pkg-config \
-	apache2.2-common \
-	apache2-mpm-prefork \
-	apache2-prefork-dev \
 	mysql-client \
 	libmysql-ruby \
 	libmysqlclient15-dev \
