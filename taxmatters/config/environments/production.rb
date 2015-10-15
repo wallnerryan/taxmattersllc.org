@@ -72,8 +72,8 @@ Taxmatters::Application.configure do
  config.action_mailer.smtp_settings = {
       :address => "email-smtp.us-east-1.amazonaws.com",
       :port => 587,
-      :user_name => "AKIAJACEPOVNN6PJNWSQ",
-      :password => "Ahpd2Vc90CA9XsREe0qt69mfxKLh6iogDnBmMOoMtnGf",
+      :user_name => "XXXXXXXX",
+      :password => "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
       :authentication => :login,
       :enable_starttls_auto => true
 }
