@@ -10,6 +10,6 @@ taxmatters:
 taxmatters_mysql:
   image: mysql
   cpu_shares: 100
-  mem_limit: 117964800
+  mem_limit: 157286400
   environment:
-    MYSQL_ROOT_PASSWORD: XXXXXX
+    - MYSQL_ROOT_PASSWOR=XXXXXX
